@@ -1,5 +1,30 @@
+/* Fonts */
+@font-face {
+    font-family: "Playfair Display";
+    src: url(../fonts/PlayfairDisplay-ExtraBold.woff2) format("woff2"),
+        url(../fonts/PlayfairDisplay-ExtraBold.woff) format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Playfair Display";
+    src: url(../fonts/PlayfairDisplay-Medium.woff2) format("woff2"),
+        url(../fonts/PlayfairDisplay-Medium.woff) format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Root */
+:root {
+--grey: #444;
+--dark: #000;
+--white: #fff;
+}
+
 html {
-    box-sizing: border-box;
     height: 100%;
     scroll-behavior: smooth;
 }
@@ -7,7 +32,7 @@ html {
 *,
 *::before,
 *::after {
-    box-sizing: inherit;
+    box-sizing: border-box;
 }
 
 body {
@@ -16,11 +41,9 @@ body {
     height: 100%;
     padding: 0;
     margin: 0;
-    font-size: 16px;
-    font-family: "Arial", sans-serif;
-    line-height: 1.5;
-    background-color: #fff;
-    color: #222;
+    font-family: "Playfair Display", "Arial", sans-serif;
+    background-color: #f5f5f5;
+    color: var(--grey);
 }
 
 img {
@@ -31,8 +54,8 @@ img {
 .container {
     width: 100%;
     max-width: 1200px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin-left: auto;
     margin-right: auto;
 }
