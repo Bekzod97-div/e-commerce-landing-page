@@ -60,6 +60,81 @@ img {
     margin-right: auto;
 }
 
+/* Site header */
+.site-header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    background-color: #fff;
+}
+/* Site_header container */
+.site-header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Site Logo */
+.site-header__logo-link {
+    margin-right: auto;
+    display: block;
+}
+.site-header__logo-link:hover {
+    opacity: 0.6;
+}
+
+.site-header__logo-img {
+    width: 102px;
+    height: 96px;
+}
+
+/* Site navbar */
+.sitenav {
+    margin-right: auto;
+}
+.sitenav__list {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.sitenav__item:not(:last-child) {
+    margin-right: 40px;
+}
+
+.sitenav__link {
+    display: block;
+    color: var(--grey);
+    font-size: 32px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.sitenav__link:hover {
+    color: var(--dark);
+}
+
+/* Site header btns */
+.site-header__buttons {
+    display: flex;
+    align-items: center;
+}
+
+.header-btns {
+    color: var(--dark);
+    transition: color 0.4s ease;
+    background-color: inherit;
+    border: transparent;
+}
+.header-btns:hover {
+    color: orange;
+}
+.account__btn {
+    margin-right: 30px;
+
+}
+
 /* Main content */
 .main-content {
     flex-grow: 1;
