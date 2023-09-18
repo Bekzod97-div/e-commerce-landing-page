@@ -176,12 +176,18 @@ img {
     align-items: center;
     color: var(--white);
     font-size: 32px;
-    padding: 18px 30px;
-    padding-top: 14px;
+    padding: 15px 30px;
+    padding-top: 11px;
     text-decoration: none;
     background-color: rgb(37, 186, 192);
+    border: 2px solid transparent;
     border-radius: 12px;
+}
 
+.hero__link:hover {
+    background-color: #f4f4f4;
+    color: var(--dark);
+    border: 2px solid var(--dark);
 }
 
 
