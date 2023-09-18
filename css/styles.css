@@ -129,6 +129,7 @@ img {
 }
 .header-btns:hover {
     color: orange;
+    cursor: pointer;
 }
 .account__btn {
     margin-right: 30px;
@@ -138,4 +139,29 @@ img {
 /* Main content */
 .main-content {
     flex-grow: 1;
+}
+
+/* Hero */
+.hero {
+    background-image: url(../img/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-left: 30px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.hero__content {
+    width: 100%;
+    max-width: 300px;
+}
+
+.hero__heading {
+    font-size: 80px;
+    color: var(--dark);
+}
+.hero__text {
+}
+.hero__link {
 }
