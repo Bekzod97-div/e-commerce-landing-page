@@ -190,6 +190,28 @@ img {
     border: 2px solid var(--dark);
 }
 
+/* Info section */
+.info__list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.info__item:not(:last-child) {
+    margin-right: 80px;
+}
+
+/* Info heading */
+.info__item-heading {
+    font-size: 40px;
+    color: var(--grey);
+}
+
+.info__item-text {
+    font-size: 24px;
+    color: var(--grey);
+}
+
 
 /* Retina display  */
 @media
